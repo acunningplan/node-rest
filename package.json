@@ -1,0 +1,26 @@
+{
+  "name": "node-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-watch src/app.js",
+    "build": "babel src --out-dir lib",
+    "serve": "node lib/app.js"
+  },
+  "keywords": [],
+  "author": "James Leung",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
+  },
+  "dependencies": {
+    "babel-watch": "^7.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.7"
+  }
+}
